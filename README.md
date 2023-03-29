@@ -3,7 +3,7 @@
 | Student's name | SCIPER |
 | -------------- | ------ |
 | Salomé Baup | 302146 |
-| | |
+| Yifeng Chen | 336230 |
 | | |
 
 [Milestone 1](#milestone-1) • [Milestone 2](#milestone-2) • [Milestone 3](#milestone-3)
