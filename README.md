@@ -2,7 +2,7 @@
 
 | Student's name | SCIPER |
 | -------------- | ------ |
-| Salome Baup | 302146 |
+| Salomé Baup | 302146 |
 | | |
 | | |
 
