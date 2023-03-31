@@ -4,7 +4,7 @@
 | -------------- | ------ |
 | Salomé Baup | 302146 |
 | Yifeng Chen | 336230 |
-| | |
+| Tanguy Desjardin| 311986 |
 
 ------------ added by salome, just for info ------------  
 
