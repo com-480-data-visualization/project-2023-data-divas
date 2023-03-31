@@ -6,10 +6,10 @@
 | Yifeng Chen | 336230 |
 | | |
 
------------- added by salome, just for info ------------
-https://ourworldindata.org/co2-and-greenhouse-gas-emissions#licence --> https://github.com/owid/co2-data (owid-co2-data.csv)
+------------ added by salome, just for info ------------  
+https://ourworldindata.org/co2-and-greenhouse-gas-emissions#licence --> https://github.com/owid/co2-data (owid-co2-data.csv)  
 
-https://ourworldindata.org/emissions-by-sector#annual-greenhouse-gas-emissions-by-sector --> ghg_emission_per_sector.csv
+https://ourworldindata.org/emissions-by-sector#annual-greenhouse-gas-emissions-by-sector --> ghg_emission_per_sector.csv  
 --------------------------------------------------------
 
 [Milestone 1](#milestone-1) • [Milestone 2](#milestone-2) • [Milestone 3](#milestone-3)
