@@ -20,9 +20,13 @@ Overall, the datasets provide a comprehensive and valuable resource for understa
 
 ## Problematic
 
-> Frame the general topic of your visualization and the main axis that you want to develop.
-> - What am I trying to show with my visualization?
-> - Think of an overview for the project, your motivation, and the target audience.
+One could undertand from the description of the datasets that the main topic of our visualization project is the worldwide repartition of GHG emissions.
+
+The emission of these gases is a widely discussed topic in the media, as it has significant implications for the environment and human society. However, despite its importance, the topic can be complex and difficult to understand, which can make it difficult for the general public to engage with the issue and take action to reduce emissions.
+
+To help address this challenge, our visualization will be based on an interactive map that to explains the distribution of emissions around the globe in a way that is easy to understand. This map will display the data in an engaging and striking way so that it has impact to the reader.
+
+By making this information more accessible and engaging, the interactive map aims at raising awareness of the importance of reducing GHG emissions and the need for collective action to address climate change. This would help foster a greater sense of urgency and commitment among individuals to take action to reduce emissions and transition to a low-carbon economy.
 
 ## Exploratory Data Analysis
 

@@ -14,7 +14,7 @@ https://ourworldindata.org/emissions-by-sector#annual-greenhouse-gas-emissions-b
 
 ------------ end of added by salome ------------
 
-[Milestone 1](#milestone-1) • [Milestone 2](#milestone-2) • [Milestone 3](#milestone-3)
+[Milestone 1](./Milestones/MILESTONE1.md) • [Milestone 2](#milestone-2) • [Milestone 3](#milestone-3)
 
 ## Milestone 1 (23rd April, 5pm)
 
