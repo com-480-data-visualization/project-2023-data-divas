@@ -35,7 +35,7 @@ In order to complete above purposes, we decide to visualize on a map which conta
 > Pre-processing of the data set you chose
 > - Show some basic statistics and get insights about the data
 
-<p align="center"><img src="[https://github.com/com-480-data-visualization/project-2023-data-divas/blob/master/graphs/Annual%20production-based%20emissions%20of%20CO%E2%82%82%20from%20gas,%20in%20million%20tonnes.png?raw=true]" width="500px"></p>
+![image](https://github.com/project-2023-data-divas/graphs/Annual production-based emissions of CO₂ from gas, in million tonnes.png)
 ## Related work
 
 // put this here, was before in the dataset part: ... The data are presented in various formats, including tables, graphs, and interactive visualizations. ... //
