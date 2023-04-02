@@ -37,11 +37,12 @@ In order to complete above purposes, we decide to visualize on a map which conta
 We load both 2 datasets, unifying the country name of them in order to get the same key, then we integrate these 2 datasets into 1 dataset, which give us more convienience in the following analysis work. Besides, we explore the number of NaNs in each column in order to find valuable column.  
 
 > - Show some basic statistics and get insights about the data
+
 For the initial exloration of data, firstly, we consider to display the annual production-based emissions of CO2 evolution by sectors, for example, from the graph below, we could find that the trend of CO2 emissions generated from gas from 1990-2019 in several coutries. It is easy to recognize that US produced most CO2 emissions from gas those years, and the value is still increasing, then is Russia. In the recent years, the CO2 emission from gas produced by China and Iran are increasing. The rest of countries maintain a relative stable status.
 <img src="/graphs/Annual_production_based_emissions_of_CO₂_from_gas_ in_million_tonnes.png" alt="Annual" width="700"/>
 
 
-<img src="/graphs/Legend.jpg" alt="Highest" width="300"/>
+
 <img src="/graphs/Highest_CO2 emission_value_by_sectors.jpg" alt="Highest" width="700"/>
 ## Related work
 
