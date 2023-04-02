@@ -35,7 +35,8 @@ In order to complete above purposes, we decide to visualize on a map which conta
 > Pre-processing of the data set you chose
 > - Show some basic statistics and get insights about the data
 
-<img src="/graphs/Annual_production_based_emissions_of_CO₂_from_gas_ in_million_tonnes.png" alt="Annual" width="1100"/>
+<img src="/graphs/Annual_production_based_emissions_of_CO₂_from_gas_ in_million_tonnes.png" alt="Annual" width="700"/>
+<img src="/graphs/Highest_CO2 emission_value_by_sectors.png" alt="Highest" width="700"/>
 ## Related work
 
 // put this here, was before in the dataset part: ... The data are presented in various formats, including tables, graphs, and interactive visualizations. ... //
