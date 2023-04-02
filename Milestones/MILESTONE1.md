@@ -24,9 +24,11 @@ One could undertand from the description of the datasets that the main topic of 
 
 The emission of these gases is a widely discussed topic in the media, as it has significant implications for the environment and human society. However, despite its importance, the topic can be complex and difficult to understand, which can make it difficult for the general public to engage with the issue and take action to reduce emissions.
 
-To help address this challenge, our visualization will be based on an interactive map that to explains the distribution of emissions around the globe in a way that is easy to understand. This map will display the data in an engaging and striking way so that it has impact to the reader.
+To help address this challenge, our visualization will be based on an interactive map that to explain the distribution of emissions around the globe in a way that is easy to understand. This map will display the data in an engaging and striking way so that it has impact to the reader.
 
 By making this information more accessible and engaging, the interactive map aims at raising awareness of the importance of reducing GHG emissions and the need for collective action to address climate change. This would help foster a greater sense of urgency and commitment among individuals to take action to reduce emissions and transition to a low-carbon economy.
+
+In order to complete above purposes, we decide to visualize on a map which contains the CO2 emission  on each country by year. For every country, we also produce an access to the comparison of CO2 emission by different sectors. Therefore, we could have a better understanding about the source of CO2 emission, like which country have a high CO2 emission in a specific year, and which is the main factor causing such results. Besides, the evolution of global CO2 emission could also be acquired so that we could have a broad overview of the overall worldwide tendency. 
 
 ## Exploratory Data Analysis
 
@@ -38,6 +40,7 @@ By making this information more accessible and engaging, the interactive map aim
 // put this here, was before in the dataset part: ... The data are presented in various formats, including tables, graphs, and interactive visualizations. ... //
 
 > - What others have already done with the data?
+> From the [Emissions by sector]([url](https://ourworldindata.org/emissions-by-sector#sector-by-sector-where-do-global-greenhouse-gas-emissions-come-from)), we could obtain the CO2 emission evolution by sector by the selected country, which help us have a great understanding about the CO2 emission trend in the country that audiences have interests.
 > - Why is your approach original?
-> - What source of inspiration do you take? Visualizations that you found on other websites or magazines (might be unrelated to your data).
-> - In case you are using a dataset that you have already explored in another context (ML or ADA course, semester project...), you are required to share the report of that work to outline the differences with the submission for this class.
+> Compared to the research above, we produce a broader view about the CO2 emission around the world not just focusing on an interested country, therefore, the audience could compare the CO2 emission between countries. Besides, they could explore the CO2 emission information on the countries that they have not noticed before. What's more, we hope to make our visualization as interactive as possible so that audiences have higher flexibility to explore the information they want.
+> - What source of inspiration do you take? Visualizations that you found on other websites or magazines (might be unrelated to your data). Our source of inspiration is from [worldpoverty]([url](https://worldpoverty.io/map)) website, which produces a interactive world map with high flexibility. Our goal is trying to visualize the information in a convienient, concise and polished way.
