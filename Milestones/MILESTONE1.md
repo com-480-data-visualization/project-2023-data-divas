@@ -42,11 +42,14 @@ For the initial exloration of data, firstly, we consider to display the annual p
 <img src="/graphs/Annual_production_based_emissions_of_CO₂_from_gas_ in_million_tonnes.png" alt="Annual" width="700"/>
 
 We also implement the data analysis about distribution of the highest emission contribution sector from every country in 2021, which gives us an initial impression of the CO2 emission from each sector, from the graph, we could find that Electricity and heat contributes most CO2 emission, the other are quite similar. 
+
+
 <img src="/graphs/Lengend.png" alt="Legend" width="200"/>
 
 <img src="/graphs/Highest_CO2 emission_value_by_sectors.jpg" alt="Highest" width="700"/>
 
 More details about our EDA could be found in [EDA.ipynb]([url](https://github.com/com-480-data-visualization/project-2023-data-divas/blob/master/EDA.ipynb))
+
 ## Related work
 
 // put this here, was before in the dataset part: ... The data are presented in various formats, including tables, graphs, and interactive visualizations. ... //
