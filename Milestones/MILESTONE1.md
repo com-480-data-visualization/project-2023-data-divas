@@ -32,8 +32,8 @@ In order to complete above purposes, we decide to visualize on a map which conta
 
 ## Exploratory Data Analysis
 
-> Pre-processing of the data set you chose
-> Show some basic statistics and get insights about the data
+> - Pre-processing of the data set you chose
+> - Show some basic statistics and get insights about the data
 
 Firstly, we explored the world regions present in the 2 datasets chosen. It appears that all the 193 countries are present, which is great. In addition to the countries, continents and income-based classification also have entries, and there is a row for the world. Until now, we focused our analysis on the countries.
 
@@ -45,19 +45,23 @@ A first NaNs exploration was performed on the countries datasets, between 1990 a
 - the columns cement_co2, land_use_change_co2 contain a bigger number of NaNs (up to 330)
 - the column trade_co2 have a large number of NaNs (2271)
 - the column other_industry_co2 contains one of the highest number of NaNs (4440)
+
 For the second datasets, up to 155 NaNs are present, for most of the sectors.  
 
 From the first dataset, we displayed the annual total greenhouse gas emissions, the annual total production-based emissions of CO₂, and the annual production-based emissions of CO₂ from different sources (cement, coal, flaring, gas, land-use-change, oil, other industries, trade). You can find below the graph of the annual total greenhouse gas emissions, where we can observe that China gradually imposed itself, exceeding the United States in the early 2000s, and continues to increase. The United States, now second, stayed overall contant between 1990 and 2019. Another country with continuously increasing global emissions in India, while Russia was quite high overall in the early 1990s, decreased for 20 years but is now increasing again. Trends however vary based on the source, but China and USA are often the top-emitters. An example of a specific source is also displayed here, for gas.
-<img src="/graphs/total_ghg_years.png" alt="total_ghg" width="700"/>
-<img src="/graphs/Annual_production_based_emissions_of_CO₂_from_gas_ in_million_tonnes.png" alt="gas" width="700"/>
+
+<p float="left">
+  <img src="/graphs/total_ghg_years.png" alt="total_ghg" width="500"/>
+ <img src="/graphs/gas_ghg_year.png" alt="gas" width="500"/>
+</p>
 
 Using the second dataset, which provides ghg-emissions for different sectors (Agriculture,	Land-use change and forestry,	Waste,	Industry,	Manufacturing and construction,	Transport,	Electricity and heat,	Buildings,	Fugitive emissions,	Other fuel combustion,	Aviation and shipping) we found the highest ghg-emitting sector for each country per year. We compared in a barplot the highest sectors in 1990 and in 2019, for each country.
 
 <img src="/graphs/Legend.jpg" alt="Legend" width="200"/>
 
-<img src="/graphs/highest_ghg_sector_normal_axis.png" alt="Highest" width="700"/>
+<img src="/graphs/highest_ghg_sector_normal_axis.png" alt="highest_normal" width="800"/>
 
-<img src="/graphs/highest_ghg_sector_log_axis.png" alt="Highest" width="700"/>
+<img src="/graphs/highest_ghg_sector_log_axis.png" alt="highest_log" width="800"/>
 
 More details about our EDA could be found in [EDA.ipynb](./../EDA.ipynb).
 
