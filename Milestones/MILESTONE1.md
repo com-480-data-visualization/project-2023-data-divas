@@ -41,9 +41,12 @@ We load both 2 datasets, unifying the country name of them in order to get the s
 For the initial exloration of data, firstly, we consider to display the annual production-based emissions of CO2 evolution by sectors, for example, from the graph below, we could find that the trend of CO2 emissions generated from gas from 1990-2019 in several coutries. It is easy to recognize that US produced most CO2 emissions from gas those years, and the value is still increasing, then is Russia. In the recent years, the CO2 emission from gas produced by China and Iran are increasing. The rest of countries maintain a relative stable status.
 <img src="/graphs/Annual_production_based_emissions_of_CO₂_from_gas_ in_million_tonnes.png" alt="Annual" width="700"/>
 
+We also implement the data analysis about distribution of the highest emission contribution sector from every country in 2021, which gives us an initial impression of the CO2 emission from each sector, from the graph, we could find that Electricity and heat contributes most CO2 emission, the other are quite similar. 
 <img src="/graphs/Lengend.png" alt="Legend" width="200"/>
 
 <img src="/graphs/Highest_CO2 emission_value_by_sectors.jpg" alt="Highest" width="700"/>
+
+More details about our EDA could be found in [EDA.ipynb]([url](https://github.com/com-480-data-visualization/project-2023-data-divas/blob/master/EDA.ipynb))
 ## Related work
 
 // put this here, was before in the dataset part: ... The data are presented in various formats, including tables, graphs, and interactive visualizations. ... //
