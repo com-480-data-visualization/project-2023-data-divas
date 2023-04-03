@@ -48,7 +48,7 @@ We also implement the data analysis about distribution of the highest emission c
 
 <img src="/graphs/Highest_CO2 emission_value_by_sectors.jpg" alt="Highest" width="700"/>
 
-More details about our EDA could be found in [EDA.ipynb]([url](https://github.com/com-480-data-visualization/project-2023-data-divas/blob/master/EDA.ipynb)).
+More details about our EDA could be found in [EDA.ipynb](./EDA.ipynb).
 
 ## Related work
 
