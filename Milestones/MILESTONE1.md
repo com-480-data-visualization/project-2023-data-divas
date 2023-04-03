@@ -49,8 +49,11 @@ A first NaNs exploration was performed on the countries datasets, between 1990 a
 For the second datasets, up to 155 NaNs are present, for most of the sectors.  
 
 From the first dataset, we displayed the annual total greenhouse gas emissions, the annual total production-based emissions of CO₂, and the annual production-based emissions of CO₂ from different sources (cement, coal, flaring, gas, land-use-change, oil, other industries, trade). You can find below the graph of the annual total greenhouse gas emissions, where we can observe that China gradually imposed itself, exceeding the United States in the early 2000s, and continues to increase. The United States, now second, stayed overall contant between 1990 and 2019. Another country with continuously increasing global emissions in India, while Russia was quite high overall in the early 1990s, decreased for 20 years but is now increasing again. Trends however vary based on the source, but China and USA are often the top-emitters. An example of a specific source is also displayed here, for gas.
-<img src="/graphs/total_ghg_years.png" alt="total_ghg" width="700"/>
-<img src="/graphs/gas_ghg_year.png" alt="gas" width="700"/>
+
+<p float="left">
+  <img src="/graphs/total_ghg_years.png" alt="total_ghg" width="400"/>
+ <img src="/graphs/gas_ghg_year.png" alt="gas" width="400"/>
+</p>
 
 Using the second dataset, which provides ghg-emissions for different sectors (Agriculture,	Land-use change and forestry,	Waste,	Industry,	Manufacturing and construction,	Transport,	Electricity and heat,	Buildings,	Fugitive emissions,	Other fuel combustion,	Aviation and shipping) we found the highest ghg-emitting sector for each country per year. We compared in a barplot the highest sectors in 1990 and in 2019, for each country.
 
