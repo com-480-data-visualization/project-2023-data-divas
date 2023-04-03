@@ -45,7 +45,7 @@ A first NaNs exploration was performed on the countries datasets, between 1990 a
 - the columns cement_co2, land_use_change_co2 contain a bigger number of NaNs (up to 330)
 - the column trade_co2 have a large number of NaNs (2271)
 - the column other_industry_co2 contains one of the highest number of NaNs (4440)
-- 
+
 For the second datasets, up to 155 NaNs are present, for most of the sectors.  
 
 From the first dataset, we displayed the annual total greenhouse gas emissions, the annual total production-based emissions of CO₂, and the annual production-based emissions of CO₂ from different sources (cement, coal, flaring, gas, land-use-change, oil, other industries, trade). You can find below the graph of the annual total greenhouse gas emissions, where we can observe that China gradually imposed itself, exceeding the United States in the early 2000s, and continues to increase. The United States, now second, stayed overall contant between 1990 and 2019. Another country with continuously increasing global emissions in India, while Russia was quite high overall in the early 1990s, decreased for 20 years but is now increasing again. Trends however vary based on the source, but China and USA are often the top-emitters. An example of a specific source is also displayed here, for gas.
