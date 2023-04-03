@@ -28,23 +28,34 @@ To help address this challenge, our visualization will be based on an interactiv
 
 By making this information more accessible and engaging, the interactive map aims at raising awareness of the importance of reducing GHG emissions and the need for collective action to address climate change. This would help foster a greater sense of urgency and commitment among individuals to take action to reduce emissions and transition to a low-carbon economy.
 
-In order to complete above purposes, we decide to visualize on a map which contains the CO2 emission  on each country by year. For every country, we also produce an access to the comparison of CO2 emission by different sectors. Therefore, we could have a better understanding about the source of CO2 emission, like which country have a high CO2 emission in a specific year, and which is the main factor causing such results. Besides, the evolution of global CO2 emission could also be acquired so that we could have a broad overview of the overall worldwide tendency. 
+In order to complete above purposes, we decide to visualize on a map which contains the CO2 emission  on each country by year. For every country, we also produce an access to the comparison of CO₂ emission by different sectors. Therefore, we could have a better understanding about the source of CO₂ emission, like which country have a high CO₂ emission in a specific year, and which is the main factor causing such results. Besides, the evolution of global CO₂ emission could also be acquired so that we could have a broad overview of the overall worldwide tendency. 
 
 ## Exploratory Data Analysis
 
 > Pre-processing of the data set you chose
+> Show some basic statistics and get insights about the data
 
-We load both 2 datasets, unifying the country name of them in order to get the same key, then we integrate these 2 datasets into 1 dataset, which give us more convienience in the following analysis work. Besides, we explore the number of NaNs in each column in order to find valuable column.  
+Firstly, we explored the world regions present in the 2 datasets chosen. It appears that all the 193 countries are present, which is great. In addition to the countries, continents and income-based classification also have entries, and there is a row for the world. Until now, we focused our analysis on the countries.
 
-> - Show some basic statistics and get insights about the data
+Then, we performed a time analysis. The first dataset contains years ranging from 1750 to 2021, however only years 1990 to 2021 have entries for each of the 193 countries. Concerning the second dataset, it has entries for the time period 1990-2019. Thus, a quite large time period overlapps between the two datasets.
 
-For the initial exloration of data, firstly, we consider to display the annual production-based emissions of CO2 evolution by sectors, for example, from the graph below, we could find that the trend of CO2 emissions generated from gas from 1990-2019 in several coutries. It is easy to recognize that US produced most CO2 emissions from gas those years, and the value is still increasing, then is Russia. In the recent years, the CO2 emission from gas produced by China and Iran are increasing. The rest of countries maintain a relative stable status.
-<img src="/graphs/total_ghg_years.png" alt="Annual" width="700"/>
+A first NaNs exploration was performed on the countries datasets, between 1990 and 2019. For the first dataset, along the most interesting entries:
+- the column total_ghg, counting the annual total greenhouse gas emissions in million tonnes of CO2-equivalents, does not contain any NaNs.
+- the columns co2, gas_co2, coal_co2, flaring_co2, oil_co2 contain a small number of NaNs (around 20)
+- the columns cement_co2, land_use_change_co2 contain a bigger number of NaNs (up to 330)
+- the column trade_co2 have a large number of NaNs (2271)
+- the column other_industry_co2 contains one of the highest number of NaNs (4440)
+For the second datasets, up to 155 NaNs are present, for most of the sectors.  
 
-We also implement the data analysis about distribution of the highest emission contribution sector from every country in 2021, which gives us an initial impression of the CO2 emission from each sector, from the graph, we could find that Electricity and heat contributes most CO2 emission, the other are quite similar. 
+From the first dataset, we displayed the annual total greenhouse gas emissions, the annual total production-based emissions of CO₂, and the annual production-based emissions of CO₂ from different sources (cement, coal, flaring, gas, land-use-change, oil, other industries, trade). You can find below the graph of the annual total greenhouse gas emissions, where we can observe that China gradually imposed itself, exceeding the United States in the early 2000s, and continues to increase. The United States, now second, stayed overall contant between 1990 and 2019. Another country with continuously increasing global emissions in India, while Russia was quite high overall in the early 1990s, decreased for 20 years but is now increasing again. Trends however vary based on the source, but China and USA are often the top-emitters. An example of a specific source is also displayed here, for gas.
+<img src="/graphs/total_ghg_years.png" alt="total_ghg" width="700"/>
+<img src="/graphs/Annual_production_based_emissions_of_CO₂_from_gas_ in_million_tonnes.png" alt="gas" width="700"/>
 
+Using the second dataset, which provides ghg-emissions for different sectors (Agriculture,	Land-use change and forestry,	Waste,	Industry,	Manufacturing and construction,	Transport,	Electricity and heat,	Buildings,	Fugitive emissions,	Other fuel combustion,	Aviation and shipping) we found the highest ghg-emitting sector for each country per year. We compared in a barplot the highest sectors in 1990 and in 2019, for each country.
 
 <img src="/graphs/Legend.jpg" alt="Legend" width="200"/>
+
+<img src="/graphs/highest_ghg_sector_normal_axis.png" alt="Highest" width="700"/>
 
 <img src="/graphs/highest_ghg_sector_log_axis.png" alt="Highest" width="700"/>
 
