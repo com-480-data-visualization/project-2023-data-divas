@@ -76,7 +76,7 @@ More details about our EDA can be found in [EDA.ipynb](EDA.ipynb).
 
 > - What others have already done with the data?
                                                                                  
-The webpages [Our World In Data - GHG emissions](https://ourworldindata.org/co2-and-greenhouse-gas-emissions) and [Our World In Data - GHG by sector](https://ourworldindata.org/emissions-by-sector#annual-greenhouse-gas-emissions-by-sector) both provide diverse analyses on the subject, using the data we selected in addition to others (e.g. temperature reports). The data are presented in various formats, including tables, graphs, and interactive visualizations.
+The webpages [Our World In Data - CO₂ and GHG emissions](https://ourworldindata.org/co2-and-greenhouse-gas-emissions) and [Our World In Data - Emissions by sector](https://ourworldindata.org/emissions-by-sector#annual-greenhouse-gas-emissions-by-sector) both provide diverse analyses on the subject, using the data we selected in addition to others (e.g. temperature reports). The data are presented in various formats, including tables, graphs, and interactive visualizations.
 
 > - Why is your approach original?
 
