@@ -74,16 +74,14 @@ More details about our EDA can be found in [EDA.ipynb](EDA.ipynb).
 
 ## Related work
 
-// put this here, was before in the dataset part: ... The data are presented in various formats, including tables, graphs, and interactive visualizations. ... //
-
 > - What others have already done with the data?
                                                                                  
-From [Our World In Data - GHG by sector]([url](https://ourworldindata.org/emissions-by-sector#sector-by-sector-where-do-global-greenhouse-gas-emissions-come-from)), we could obtain the GHG emissions evolution by sector by the selected country, which help us have a great understanding about the CO2 emission trend in the country that audiences have interests.
+The webpages [Our World In Data - GHG emissions](https://ourworldindata.org/co2-and-greenhouse-gas-emissions) and [Our World In Data - GHG by sector](https://ourworldindata.org/emissions-by-sector#annual-greenhouse-gas-emissions-by-sector) both provide diverse analyses on the subject, using the data we selected in addition to others (e.g. temperature reports). The data are presented in various formats, including tables, graphs, and interactive visualizations.
 
 > - Why is your approach original?
 
-Compared to the research above, we produce a broader view about the CO2 emission around the world not just focusing on an interested country, therefore, the audience could compare the CO2 emission between countries. Besides, they could explore the CO2 emission information on the countries that they have not noticed before. What's more, we hope to make our visualization as interactive as possible so that audiences have higher flexibility to explore the information they want.
+We aim to produce a broad view about the GHG emissions around the world by having spatial and temporal informations provided at the same time. It would help the reader to better understand GHG emissions repartition and evolution. Besides, the user could explore the GHG emissions information on countries that they may not have noticed before. Finally, we hope to make our visualization as interactive as possible so that the users have a high flexibility in exploring the information they want.
 
 > - What source of inspiration do you take? Visualizations that you found on other websites or magazines (might be unrelated to your data). 
 
-Our source of inspiration is from [worldpoverty]([url](https://worldpoverty.io/map)) website, which produces a interactive world map with high flexibility. Our goal is trying to visualize the information in a convienient, concise and polished way.
+A source of inspiration is from [worldpoverty]([url](https://worldpoverty.io/map)) website, which produces a interactive world map with high flexibility. Our goal is trying to visualize the information in a convienient, concise and polished way.
