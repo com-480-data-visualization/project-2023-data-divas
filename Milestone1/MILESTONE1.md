@@ -49,7 +49,7 @@ Firstly, we explored the world regions present in the 2 datasets. It appears tha
 Then, we performed a time analysis. The first dataset contains years ranging from 1750 to 2021, however only years 1990 to 2021 have entries for each of the 193 countries. Concerning the second dataset, entries range from 1990 to 2019. Thus, a rather large time period overlapps between the two datasets.
 
 A first NaNs exploration was performed on the countries datasets, between 1990 and 2019. For the first, along the most interesting entries:
-- the column total_ghg, counting the annual total greenhouse gas emissions in million tonnes of CO2-equivalents, does not contain any NaNs,
+- the column total_ghg does not contain any NaNs,
 - the columns co2, gas_co2, coal_co2, flaring_co2, oil_co2 contain a small number of NaNs (around 20),
 - the columns cement_co2, land_use_change_co2 contain more missing entries (up to 330),
 - the columns trade_co2 and other_industry_co2 have a large number of NaNs (up to 4440).  
@@ -62,14 +62,14 @@ From the first dataset, we displayed the annual total greenhouse gas emissions, 
  <img src="pictures/gas_ghg_year.png" alt="gas" width="500"/>
 </p>
 
-Using the second dataset, which provides GHG emissions for different sectors, we found the highest GHG-emitting sector for each country per year. We compared in a barplot the highest sectors in 1990 and in 2019, for each country. Both normal and logarithmic graphs are displayed here.
+Using the second dataset, which provides GHG emissions for different sectors, we found the highest GHG-emitting sector for each country per year. We compared in a barplot the highest sectors in 1990 and in 2019, for each country. Both normal and logarithmic axes are displayed here.
 
 <img src="pictures/Legend.png" alt="Legend" width="250"/>
-
+<p float="left">
 <img src="pictures/highest_ghg_sector_normal_axis.png" alt="highest_normal" width="500"/>
-
 <img src="pictures/highest_ghg_sector_log_axis.png" alt="highest_log" width="500"/>
-
+</p>
+                                                                                 
 More details about our EDA could be found in [EDA.ipynb](EDA.ipynb).
 
 ## Related work
