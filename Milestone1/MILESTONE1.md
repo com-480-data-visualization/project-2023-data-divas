@@ -32,14 +32,14 @@ In order to meet the above-mentioned purposes, we want to create an interactive 
 
 <p float="left">
 <img src="pictures/world_map_sketch.png" alt="map" width="800"/>
-<leg><br>Sketch of the interactive world map idea.</em>
+<em><br>Sketch of the interactive world map idea.</em>
 </p>
 
 <p float="left">
     <img src="pictures/barplot_sectors_sketch.png" alt="sectors" width="400"/>
-    <em>Sketch of the sector barplot for one country.</em>
+    <em><br>Sketch of the sector barplot for one country.</em>
     <img src="pictures/time_sketch.png" alt="time" width=400"/>
-    <em>Sketch of the time evolution of all countries.</em>
+    <em><br>Sketch of the time evolution of all countries.</em>
 </p>
 
 ## Exploratory Data Analysis
