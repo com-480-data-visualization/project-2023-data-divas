@@ -12,7 +12,7 @@
 
 **10% of the final grade**
 
-[Click here](./Milestone1/ReadMe1.md) to read about our ideas and the datasets chosen.
+[Click here](./Milestone1/MILESTONE1.md) to read about our ideas and the datasets chosen.
 
 ## Milestone 2 (7th May, 5pm)
 
