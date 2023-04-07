@@ -54,11 +54,11 @@ From the first dataset, we displayed the annual total greenhouse gas emissions, 
 
 Using the second dataset, which provides GHG emissions for different sectors (Agriculture,	Land-use change and forestry,	Waste,	Industry,	Manufacturing and construction,	Transport,	Electricity and heat,	Buildings,	Fugitive emissions,	Other fuel combustion,	Aviation and shipping) we found the highest GHG-emitting sector for each country per year. We compared in a barplot the highest sectors in 1990 and in 2019, for each country.
 
-<img src="/pictures/Legend.png" alt="Legend" width="300"/>
+<img src="pictures/Legend.png" alt="Legend" width="300"/>
 
-<img src="/pictures/highest_ghg_sector_normal_axis.png" alt="highest_normal" width="800"/>
+<img src="pictures/highest_ghg_sector_normal_axis.png" alt="highest_normal" width="800"/>
 
-<img src="/pictures/highest_ghg_sector_log_axis.png" alt="highest_log" width="800"/>
+<img src="pictures/highest_ghg_sector_log_axis.png" alt="highest_log" width="800"/>
 
 More details about our EDA could be found in [EDA.ipynb](./../EDA.ipynb).
 
