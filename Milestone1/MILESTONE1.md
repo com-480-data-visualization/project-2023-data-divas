@@ -30,12 +30,16 @@ By making this information more accessible and engaging, the interactive map aim
 
 In order to meet the above-mentioned purposes, we want to create an interactive world map, containing both spatial and temporal information: total GHG emissions will be displayed for each country using a colormap and a time slider will enable the reader to travel through years. When the user would hover over a country, name and numerical value would be displayed and if the user clicks on the country, a second graph would be displayed. This graph would represent a barplot comparing the main sectors responsible for GHG emissions in this country, to better understand the different factors at stake. In addition to these graphs, an interactive time evolution of all the countries will be displayed. These ideas are sketched below. We can also explore the possibility to add the time evolution of global worldwide GHG emissions, or by continents, so that a broad overview would be presented. 
 
-<img src="pictures/world_map_sketch.png" alt="map" width="750"/>
-
+<p float="left">
+<img src="pictures/world_map_sketch.png" alt="map" width="800"/>
+<em>Sketch of the interactive world map idea.</em>
+</p>
 
 <p float="left">
     <img src="pictures/barplot_sectors_sketch.png" alt="sectors" width="400"/>
+    <em>Sketch of the sector barplot for one country.</em>
     <img src="pictures/time_sketch.png" alt="time" width=400"/>
+    <em>Sketch of the time evolution of all countries.</em>
 </p>
 
 ## Exploratory Data Analysis
