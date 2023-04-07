@@ -66,9 +66,9 @@ Using the second dataset, which provides GHG emissions for different sectors, we
 
 <img src="pictures/Legend.png" alt="Legend" width="250"/>
 
-<img src="pictures/highest_ghg_sector_normal_axis.png" alt="highest_normal" width="700"/>
+<img src="pictures/highest_ghg_sector_normal_axis.png" alt="highest_normal" width="500"/>
 
-<img src="pictures/highest_ghg_sector_log_axis.png" alt="highest_log" width="700"/>
+<img src="pictures/highest_ghg_sector_log_axis.png" alt="highest_log" width="500"/>
 
 More details about our EDA could be found in [EDA.ipynb](EDA.ipynb).
 
