@@ -32,7 +32,7 @@ In order to meet the above-mentioned purposes, we want to create an interactive 
 
 <p float="left">
 <img src="pictures/world_map_sketch.png" alt="map" width="800"/>
-<em>Sketch of the interactive world map idea.</em>
+<leg><br>Sketch of the interactive world map idea.</em>
 </p>
 
 <p float="left">
