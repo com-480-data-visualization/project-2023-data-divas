@@ -39,7 +39,7 @@ In order to meet the above-mentioned purposes, we want to create an interactive 
     <img src="pictures/barplot_sectors_sketch.png" alt="sectors" width="400"/>
     <img src="pictures/time_sketch.png" alt="time" width=400"/>
     <em><br>Sketch of the sector barplot for one country.</em>
-    <em>Sketch of the time evolution of all countries.</em>
+    <em>&nbsp;Sketch of the time evolution of all countries.</em>
 </p>
 
 ## Exploratory Data Analysis
