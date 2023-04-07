@@ -32,8 +32,8 @@ In order to meet the above-mentioned purposes, we want to create an interactive 
 
 <p float="left">
     <img src="pictures/world_map_sketch.png" alt="total_ghg" width="700"/>
-    <img src="pictures/barplot_sectors_sketch.png" alt="total_ghg" width="300"/>
-    <img src="pictures/time_sketch.png" alt="total_ghg" width=300"/>
+    <img src="pictures/barplot_sectors_sketch.png" alt="total_ghg" width="350"/>
+    <img src="pictures/time_sketch.png" alt="total_ghg" width=350"/>
 </p>
 
 ## Exploratory Data Analysis
