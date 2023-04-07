@@ -20,20 +20,17 @@ Overall, the datasets provide a comprehensive and valuable resource for understa
 
 ## Problematic
 
-One could undertand from the description of the datasets that the main topic of our visualization project is the worldwide repartition of GHG emissions.
+One could understand from the description of the datasets that the main topic of our visualization project is the worldwide repartition of GHG emissions.
 
 The emission of these gases is a widely discussed topic in the media, as it has significant implications for the environment and human society. However, despite its importance, the topic can be complex and difficult to understand, which can make it difficult for the general public to engage with the issue and take action to reduce emissions.
 
-To help address this challenge, our visualization will be based on an interactive map that to explain the distribution of emissions around the globe in a way that is easy to understand. This map will display the data in an engaging and striking way so that it has impact to the reader.
+To help address this challenge, our visualization will be based on an interactive map, to explain the distribution of emissions around the globe in a way that is easy to understand. This map will display the data in an engaging and striking approach so that it has impact to the reader.
 
 By making this information more accessible and engaging, the interactive map aims at raising awareness of the importance of reducing GHG emissions and the need for collective action to address climate change. This would help foster a greater sense of urgency and commitment among individuals to take action to reduce emissions and transition to a low-carbon economy.
 
-In order to complete above purposes, we decide to visualize on a map which contains the CO2 emission  on each country by year. For every country, we also produce an access to the comparison of CO₂ emission by different sectors. Therefore, we could have a better understanding about the source of CO₂ emission, like which country have a high CO₂ emission in a specific year, and which is the main factor causing such results. Besides, the evolution of global CO₂ emission could also be acquired so that we could have a broad overview of the overall worldwide tendency. 
+In order to meet the above-mentioned purposes, we want to create an interactive world map, containing both spatial and temporal information: total GHG emissions will be displayed for each country using a colormap and a time slider will enable the reader to travel through years. When the user would hover over a country, name and numerical value would be displayed and if the user clicks on the country, a second graph would be displayed. This graph would represent a barplot comparing the main sectors responsible for GHG emissions in this country, to better understand the different factors at stake. In addition to these graphs, an interactive time evolution will be displayed. We can also explore the possibility to add the time evolution of global worldwide GHG emissions, or by continents, so that a broad overview would be presented. 
 
 ## Exploratory Data Analysis
-
-> - Pre-processing of the data set you chose
-> - Show some basic statistics and get insights about the data
 
 Firstly, we explored the world regions present in the 2 datasets chosen. It appears that all the 193 countries are present, which is great. In addition to the countries, continents and income-based classification also have entries, and there is a row for the world. Until now, we focused our analysis on the countries.
 
@@ -51,17 +48,17 @@ For the second datasets, up to 155 NaNs are present, for most of the sectors.
 From the first dataset, we displayed the annual total greenhouse gas emissions, the annual total production-based emissions of CO₂, and the annual production-based emissions of CO₂ from different sources (cement, coal, flaring, gas, land-use-change, oil, other industries, trade). You can find below the graph of the annual total greenhouse gas emissions, where we can observe that China gradually imposed itself, exceeding the United States in the early 2000s, and continues to increase. The United States, now second, stayed overall contant between 1990 and 2019. Another country with continuously increasing global emissions in India, while Russia was quite high overall in the early 1990s, decreased for 20 years but is now increasing again. Trends however vary based on the source, but China and USA are often the top-emitters. An example of a specific source is also displayed here, for gas.
 
 <p float="left">
-  <img src="/graphs/total_ghg_years.png" alt="total_ghg" width="500"/>
- <img src="/graphs/gas_ghg_year.png" alt="gas" width="500"/>
+  <img src="/pictures/total_ghg_years.png" alt="total_ghg" width="500"/>
+ <img src="/pictures/gas_ghg_year.png" alt="gas" width="500"/>
 </p>
 
-Using the second dataset, which provides ghg-emissions for different sectors (Agriculture,	Land-use change and forestry,	Waste,	Industry,	Manufacturing and construction,	Transport,	Electricity and heat,	Buildings,	Fugitive emissions,	Other fuel combustion,	Aviation and shipping) we found the highest ghg-emitting sector for each country per year. We compared in a barplot the highest sectors in 1990 and in 2019, for each country.
+Using the second dataset, which provides GHG emissions for different sectors (Agriculture,	Land-use change and forestry,	Waste,	Industry,	Manufacturing and construction,	Transport,	Electricity and heat,	Buildings,	Fugitive emissions,	Other fuel combustion,	Aviation and shipping) we found the highest GHG-emitting sector for each country per year. We compared in a barplot the highest sectors in 1990 and in 2019, for each country.
 
-<img src="/graphs/Legend.png" alt="Legend" width="300"/>
+<img src="/pictures/Legend.png" alt="Legend" width="300"/>
 
-<img src="/graphs/highest_ghg_sector_normal_axis.png" alt="highest_normal" width="800"/>
+<img src="/pictures/highest_ghg_sector_normal_axis.png" alt="highest_normal" width="800"/>
 
-<img src="/graphs/highest_ghg_sector_log_axis.png" alt="highest_log" width="800"/>
+<img src="/pictures/highest_ghg_sector_log_axis.png" alt="highest_log" width="800"/>
 
 More details about our EDA could be found in [EDA.ipynb](./../EDA.ipynb).
 
