@@ -62,7 +62,7 @@ From the first dataset, we displayed the annual total greenhouse gas emissions, 
  <img src="pictures/gas_ghg_year.png" alt="gas" width="500"/>
 </p>
 
-Using the second dataset, which provides GHG emissions for different sectors, we found the highest GHG-emitting sector for each country per year. We compared in a barplot the highest sectors in 1990 and in 2019, for each country. Both normal and logarithmic axes are displayed here.
+Using the second dataset, which provides GHG emissions for different sectors, we found the highest GHG-emitting sector for each country per year. We compared in a barplot the highest sectors in 1990 and in 2019, for each country. Both normal and logarithmic axes are displayed here. China, USA, Russia, India, Indonesia and Brazil appear as the highest emitters here, with Electricity and Land-use-change as highest sectors.
 
 <img src="pictures/Legend.png" alt="Legend" width="250"/>
 <p float="left">
