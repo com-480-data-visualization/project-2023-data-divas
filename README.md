@@ -6,15 +6,7 @@
 | Yifeng Chen | 336230 |
 | Tanguy Desjardin| 311986 |
 
------------- added by salome, just for info ------------  
-
-https://ourworldindata.org/co2-and-greenhouse-gas-emissions#licence --> https://github.com/owid/co2-data (owid-co2-data.csv)
-
-https://ourworldindata.org/emissions-by-sector#annual-greenhouse-gas-emissions-by-sector --> ghg_emission_per_sector.csv
-
------------- end of added by salome ------------
-
-[Milestone 1](./Milestones/MILESTONE1.md) • [Milestone 2](#milestone-2) • [Milestone 3](#milestone-3)
+[Milestone 1](./Milestone1/ReadMe1.md) • [Milestone 2](#milestone-2) • [Milestone 3](#milestone-3)
 
 ## Milestone 1 (23rd April, 5pm)
 
