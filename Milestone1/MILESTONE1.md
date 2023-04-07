@@ -6,7 +6,7 @@ This first milestone is dedicated to the explanation and assesment of the feasab
 
 ## Dataset
 
-The first dataset, available at [Our World In Data - GHG emissions](https://ourworldindata.org/co2-and-greenhouse-gas-emissions#licence), presents global carbon dioxide (CO2) and greenhouse gas (GHG) emissions from 1750 to 2021. The data are sourced from a variety of international organizations, including the International Energy Agency (IEA), the United Nations Framework Convention on Climate Change (UNFCCC), and the Global Carbon Project.
+The first dataset, available at [Our World In Data - GHG emissions](https://ourworldindata.org/co2-and-greenhouse-gas-emissions), presents global carbon dioxide (CO2) and greenhouse gas (GHG) emissions from 1750 to 2021. The data are sourced from a variety of international organizations, including the International Energy Agency (IEA), the United Nations Framework Convention on Climate Change (UNFCCC), and the Global Carbon Project.
 
 The second dataset, available at [Our World In Data - GHG by sector](https://ourworldindata.org/emissions-by-sector#annual-greenhouse-gas-emissions-by-sector), presents global GHG emissions by sector from 1960 to 2016. The data are sourced from the same international organizations as the first dataset, and are broken down by sector, including industry, transport, agriculture, and electricity.
 
@@ -70,15 +70,15 @@ Using the second dataset, which provides GHG emissions for different sectors, we
 <img src="pictures/highest_ghg_sector_log_axis.png" alt="highest_log" width="500"/>
 </p>
                                                                                  
-More details about our EDA could be found in [EDA.ipynb](EDA.ipynb).
+More details about our EDA can be found in [EDA.ipynb](EDA.ipynb).
 
 ## Related work
 
 // put this here, was before in the dataset part: ... The data are presented in various formats, including tables, graphs, and interactive visualizations. ... //
 
 > - What others have already done with the data?
-
-From the [Emissions by sector]([url](https://ourworldindata.org/emissions-by-sector#sector-by-sector-where-do-global-greenhouse-gas-emissions-come-from)), we could obtain the CO2 emission evolution by sector by the selected country, which help us have a great understanding about the CO2 emission trend in the country that audiences have interests.
+                                                                                 
+From [Our World In Data - GHG by sector]([url](https://ourworldindata.org/emissions-by-sector#sector-by-sector-where-do-global-greenhouse-gas-emissions-come-from)), we could obtain the GHG emissions evolution by sector by the selected country, which help us have a great understanding about the CO2 emission trend in the country that audiences have interests.
 
 > - Why is your approach original?
 
