@@ -6,9 +6,9 @@ This first milestone is dedicated to the explanation and assesment of the feasab
 
 ## Dataset
 
-The first dataset, available at [Our World In Data - GHG emissions](https://ourworldindata.org/co2-and-greenhouse-gas-emissions), presents global carbon dioxide (CO2) and greenhouse gas (GHG) emissions from 1750 to 2021. The data are sourced from a variety of international organizations, including the International Energy Agency (IEA), the United Nations Framework Convention on Climate Change (UNFCCC), and the Global Carbon Project.
+The first dataset, available at [Our World In Data - CO₂ and GHG emissions](https://ourworldindata.org/co2-and-greenhouse-gas-emissions), presents global carbon dioxide (CO₂) and greenhouse gas (GHG) emissions from 1750 to 2021. The data are sourced from a variety of international organizations, including the International Energy Agency (IEA), the United Nations Framework Convention on Climate Change (UNFCCC), and the Global Carbon Project.
 
-The second dataset, available at [Our World In Data - GHG by sector](https://ourworldindata.org/emissions-by-sector#annual-greenhouse-gas-emissions-by-sector), presents global GHG emissions by sector from 1960 to 2016. The data are sourced from the same international organizations as the first dataset, and are broken down by sector, including industry, transport, agriculture, and electricity.
+The second dataset, available at [Our World In Data - Emissions by sector](https://ourworldindata.org/emissions-by-sector#annual-greenhouse-gas-emissions-by-sector), presents global GHG emissions by sector from 1960 to 2016. The data are sourced from the same international organizations as the first dataset, and are broken down by sector, including industry, transport, agriculture, and electricity.
 
 Both datasets are of high quality, with data sourced from reputable international organizations and presented in a clear and accessible manner. The data are also regularly updated, ensuring that users have access to the latest information.
 
@@ -84,4 +84,5 @@ We aim to produce a broad view about the GHG emissions around the world by havin
 
 > - What source of inspiration do you take? Visualizations that you found on other websites or magazines (might be unrelated to your data). 
 
-A source of inspiration is from [worldpoverty]([url](https://worldpoverty.io/map)) website, which produces a interactive world map with high flexibility. Our goal is trying to visualize the information in a convienient, concise and polished way.
+Our sources of inspiration are from [Our World In Data - Country Profiles](https://ourworldindata.org/co2-and-greenhouse-gas-emissions#co2-and-greenhouse-gas-emissions-country-profiles) webpage, which provides countries time evolution, and from [worldpoverty - map](https://worldpoverty.io/map), where an interactive world map with high flexibility is displayed. Our goal is to try to visualize the information in a convienient, concise and polished way.
+                                                                                 
