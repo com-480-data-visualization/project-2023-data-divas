@@ -58,7 +58,7 @@ For the second dataset, up to 155 NaNs are present for most of the sectors.
 From the first dataset, we displayed the annual total greenhouse gas emissions, the annual total production-based emissions of CO₂, and the annual production-based emissions of CO₂ from different sources (cement, coal, flaring, gas, land-use-change, oil, other industries, trade). You can find below the graph of the annual total greenhouse gas emissions, where we can observe that China gradually imposed itself, exceeding the United States in the early 2000s, and that its emissions continue to increase. The United States, now second, stayed overall contant between 1990 and 2019. Another country with continuously increasing global emissions is India, while Russia's emissions were quite high overall in the early 1990s, decreased for 20 years but are now increasing again. Trends however vary based on the source. An example of a specific source is displayed below, for gas.
 
 <p float="left">
-  <img src="pictures/total_ghg_years.png" alt="total_ghg" width="500"/>
+  <img src="pictures/total_ghg_year.png" alt="total_ghg" width="500"/>
  <img src="pictures/gas_ghg_year.png" alt="gas" width="500"/>
 </p>
 
