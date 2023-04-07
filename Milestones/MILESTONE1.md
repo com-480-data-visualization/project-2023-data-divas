@@ -1,4 +1,4 @@
-## Milestone 1 (23rd April, 5pm)
+## Milestone 1 (7th April, 5pm)
 
 **10% of the final grade**
 
