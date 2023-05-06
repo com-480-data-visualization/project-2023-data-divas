@@ -4,4 +4,4 @@ Milestone 2 (Sunday 7th May, 5pm)
 
 The 2-pages pdf describing the project, with the independent pieces to implement, sketches, extra ideas and useful tools is available [here PUT PDF!](PUT_PDF).
 
-The src folder contains our initial [website](https://htmlpreview.github.io/?https://github.com/com-480-data-visualization/project-2023-data-divas/blob/master/Milestone2/src/index.html) along with other code files.
+The src folder contains our initial [website](https://com-480-data-visualization.github.io/project-2023-data-divas/Milestone2/src/) along with other code files.
