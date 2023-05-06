@@ -6,7 +6,7 @@
 | Yifeng Chen | 336230 |
 | Tanguy Desjardin| 311986 |
 
-[Milestone 1](./Milestone1/) • [Milestone 2](#milestone-2) • [Milestone 3](#milestone-3)
+[Milestone 1](./Milestone1/) • [Milestone 2](./Milestone2/) • [Milestone 3](#milestone-3)
 
 ## Milestone 1 (23rd April, 5pm)
 
@@ -18,6 +18,7 @@
 
 **10% of the final grade**
 
+[Here](./Milestone2/MILESTONE2.md) is the Milestone 2 with the pdf and initial website.
 
 ## Milestone 3 (4th June, 5pm)
 
