@@ -2,7 +2,7 @@
 
 **10% of the final grade**
 
-The 2-pages pdf describing the project, with the independent pieces to implement, sketches, extra ideas and useful tools is available [here!](./Milestone2.pdf).
+The 2-pages pdf describing the project, with the independent pieces to implement, sketches, extra ideas and useful tools is available [here](./Milestone2.pdf)!.
 
 Repository structure:
 
