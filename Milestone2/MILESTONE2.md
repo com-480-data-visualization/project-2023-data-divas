@@ -4,7 +4,7 @@
 
 The 2-pages pdf describing the project, with the independent pieces to implement, sketches, extra ideas and useful tools is available [here](./Milestone2.pdf)!.
 
-Repository structure:
+**Repository structure:**
 
 In addition to the csv dataset files, the folder `./geojson_creation/` contains:
 - the initial geojson file `WorldMapGeo.js` sourced from [World Map Geo JSON data](https://gist.github.com/markmarkoh/2969317) with slightly modified country names and South Sudan coordinates added;
