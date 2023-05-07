@@ -15,7 +15,7 @@ In addition to the csv dataset files, the folder `./geojson_creation/` contains:
 In the folder `./src/` are present the material needed for our initial [website](https://com-480-data-visualization.github.io/project-2023-data-divas/Milestone2/src/) :
 
 - the folder `data/` with the geojson file and some pictures;
-- 3 HTML files: `index.html` (the core page), `howto.html` (second page for exaplanations), `about.html `(third page about team members);
+- 3 HTML files: `index.html` (the core page), `howto.html` (second page for exaplanations), `about.html` (third page about team members);
 - 3 JavaScript files: `map.js` (the core visualization), `barplots.js` (for the detailed charts), `ghg_counter.js` (a small counter incrementing every second)
 - 1 style sheet, `index.css`.
 
