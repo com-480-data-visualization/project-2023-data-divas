@@ -27,5 +27,5 @@ function count_ghg_seconds(id, units, describ, color="white", nb_ghg_sec = 2) {
 count_ghg_seconds(
   "#ghg_counter",
   "[units]",
-  "ghg emitted worldwide wince the start of your visit"
+  "ghg emitted worldwide since the start of your visit"
 );
