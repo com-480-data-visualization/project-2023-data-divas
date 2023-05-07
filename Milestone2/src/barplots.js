@@ -80,15 +80,38 @@ function sectors_barplot(sectors_data, year) {
     .attr("transform", "rotate(-90)")
     .attr("dx", "-13em")
     .attr("dy", "-0.5em");
-
+  // X title
+  svg.append("text")
+    .attr("class", "axisWhite")
+    
+    .attr("x", width)
+    .attr("y", height)
+    .attr("dx", "-3.2em")
+    .attr("dy","1.5em")
+    .attr("transform", "rotate(0)")
+    .style("font-size", "12px")
+    .style("fill", "white")
+    .style("font-family", "Sensa Sans")
+    .text("Sector");
   // Y axis and labels
   svg.append("g")
       .attr("class", "axisWhite")
       .call(d3.axisLeft(y))
       .selectAll("text")
+
       .style("font-size", "10px")
       .style("font-family", "Sensa Sans");
-
+  // Y title
+  svg.append("text")
+    .attr("class", "axisWhite")
+    .attr("text-anchor", "end")
+    .attr("y", 1)
+    .attr("dy", "-.2em")
+    .attr("transform", "rotate(0)")
+    .style("fill", "white")
+    .style("font-size", "12px")
+    .style("font-family", "Sensa Sans")
+    .text("Tons");
   // Draw bars
   svg
     .append("g")
