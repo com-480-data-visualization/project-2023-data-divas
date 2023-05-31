@@ -12,7 +12,7 @@ In addition to the csv dataset files, the folder `./geojson_creation/` contains:
 - the file `create_geojson.ipynb` who was used to create a new geojson based on the initial one, adding to each country: the global GHG emissions for the map (core visualization), all the sectors emissions for the second chart and all the gases emissions for the third chart;
 - `output_geojson.js` which is the generated geosjon file.
 
-In the folder `./src/` are present the material needed for our initial [website](https://com-480-data-visualization.github.io/project-2023-data-divas/blob/dev/Milestone2/src/index.html) :
+In the folder `./src/` are present the material needed for our initial [website](https://com-480-data-visualization.github.io/project-2023-data-divas/dev/Milestone2/src/) :
 
 - the folder `data/` with the geojson file and some pictures;
 - 3 HTML files: `index.html` (the core page), `howto.html` (second page for exaplanations), `about.html` (third page about team members);
