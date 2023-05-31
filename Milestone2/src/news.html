@@ -29,103 +29,106 @@
   </div>
 
   <link rel="stylesheet" href="index.css" />
-<head>
-  <title>Real-time News</title>
-  <script src="https://d3js.org/d3.v4.min.js"></script>
-  <script src="https://code.jquery.com/jquery-1.7.2.min.js"></script>
-</head>
+
+  <br>
 <body>
-  <h1>Real-time News</h1>
-
-  <div id="news-container"></div>
-
-  <div class="container">
-    <h1 class="title text-center">Free News API</h1>
-    <hr>
-    <div class="list-wrapper">
-      <div class="row single-news">
-        <div class="col-4">
-          <img style="width:100%;" src="path/to/default/image.jpg">
-        </div>
-        <div class="col-8">
-          <h2>Loading...</h2>
-          <small>Loading...</small>
-          <p>Loading...</p>
-          <a href="#" class="btn btn-sm btn-primary" style="float:right;" target="_blank">Read More >></a>
-        </div>
+<h1 style="margin-bottom: 0px">Live news page</h1>
+<div id="news-container"></div>
+<div class="container">
+  <hr>
+  <div class="list-wrapper">
+    <div class="row single-news">
+      <div class="col-4">
+        <img id="default-image" style="width:100%;" src="data/news.jpg">
+      </div>
+      <div class="col-8">
+        <h2>Loading...</h2>
+        <small>Loading...</small>
+        <p>Loading...</p>
+        <a href="#" class="btn btn-sm btn-primary" style="float:right;" target="_blank">Read More >></a>
       </div>
     </div>
   </div>
+</div>
 
-  <script>
-    // Make an AJAX request to fetch the news data from the News API
-    var xhr = new XMLHttpRequest();
-    var news_keyword = 'GHG'; // Specify the keyword for news search
-    var api_key = '30a1600f7fd74a879509f2e26afb2b17'; // Replace with your actual News API key
-    var api_url = 'https://newsapi.org/v2/everything?q=' + news_keyword + '&from=2023-04-30&sortBy=publishedAt&apiKey=' + api_key;
-    xhr.open('GET', api_url, true);
-    xhr.onreadystatechange = function() {
-      if (xhr.readyState === 4 && xhr.status === 200) {
-        var response = JSON.parse(xhr.responseText);
-        renderNews(response.articles);
+<script>
+  // Make an AJAX request to fetch the news data from the News API
+  var xhr = new XMLHttpRequest();
+  var news_keyword = 'GHG'; // Specify the keyword for news search
+  var api_key = '30a1600f7fd74a879509f2e26afb2b17'; // Replace with your actual News API key
+  var api_url = 'https://newsapi.org/v2/everything?q=' + news_keyword + '&from=2023-04-30&sortBy=popularityAt&apiKey=' + api_key;
+  xhr.open('GET', api_url, true);
+  xhr.onreadystatechange = function() {
+    if (xhr.readyState === 4 && xhr.status === 200) {
+      var response = JSON.parse(xhr.responseText);
+      var articles = response.articles.slice(0, 10);
+      renderNews(articles);
+    }
+  };
+  xhr.send();
+
+  // Render the news data dynamically
+  function renderNews(articles) {
+    var listWrapper = document.querySelector('.list-wrapper');
+    listWrapper.innerHTML = ''; // Clear the loading placeholder
+
+    for (var i = 0; i < articles.length; i++) {
+      var news = articles[i];
+
+      // Check if the image URL is available
+      if (!news.urlToImage) {
+        continue; // Skip this article if image URL is not available
       }
-    };
-    xhr.send();
-  
-    // Render the news data dynamically
-    function renderNews(articles) {
-      var listWrapper = document.querySelector('.list-wrapper');
-      listWrapper.innerHTML = ''; // Clear the loading placeholder
-  
-      for (var i = 0; i < articles.length; i++) {
-        var news = articles[i];
-  
-        var row = document.createElement('div');
-        row.className = 'row single-news';
-  
-        var colImg = document.createElement('div');
-        colImg.className = 'col-4';
-  
-        var img = document.createElement('img');
-        img.style.width = '100%';
-        img.src = news.urlToImage || 'path/to/default/image.jpg';
-  
-        colImg.appendChild(img);
-  
-        var colContent = document.createElement('div');
-        colContent.className = 'col-8';
-  
-        var title = document.createElement('h2');
-        title.textContent = news.title;
-  
-        var source = document.createElement('small');
-        source.textContent = news.source.name;
-  
-        var author = document.createElement('small');
-        if (news.author && news.author !== '') {
-          author.textContent = '| ' + news.author;
-        }
-  
-        var description = document.createElement('p');
-        description.textContent = news.description;
-  
-        var link = document.createElement('a');
-        link.href = news.url;
-        link.className = 'btn btn-sm btn-primary';
-        link.style.float = 'right';
-        link.target = '_blank';
-        link.textContent = 'Read More >>';
-  
-        colContent.appendChild(title);
-        colContent.appendChild(source);
-        colContent.appendChild(author);
-        colContent.appendChild(description);
-        colContent.appendChild(link);
-  
-        row.appendChild(colImg);
-        row.appendChild(colContent);
-  
-        listWrapper.appendChild(row);
+
+      var row = document.createElement('div');
+      row.className = 'row single-news';
+
+      var colImg = document.createElement('div');
+      colImg.className = 'col-4';
+
+      var img = document.createElement('img');
+      img.className = 'news-image';
+      img.src = news.urlToImage;
+      img.onerror = function() {
+        this.src = 'data/news.jpg'; // Replace with the URL of your default image
+      };
+
+      colImg.appendChild(img);
+
+      var colContent = document.createElement('div');
+      colContent.className = 'col-8';
+
+      var title = document.createElement('h2');
+      title.textContent = news.title;
+
+      var source = document.createElement('small');
+      source.textContent = news.source.name;
+
+      var author = document.createElement('small');
+      if (news.author && news.author !== '') {
+        author.textContent = '| ' + news.author;
+      }
+
+      var description = document.createElement('p');
+      description.textContent = news.description;
+
+      var link = document.createElement('a');
+      link.href = news.url;
+      link.className = 'btn btn-sm btn-primary';
+      link.style.float = 'right';
+      link.target = '_blank';
+      link.textContent = 'Read More >>';
+
+      colContent.appendChild(title);
+      colContent.appendChild(source);
+      colContent.appendChild(author);
+      colContent.appendChild(description);
+      colContent.appendChild(link);
+
+      row.appendChild(colImg);
+      row.appendChild(colContent);
+
+      listWrapper.appendChild(row);
       }
     }
   </script>
