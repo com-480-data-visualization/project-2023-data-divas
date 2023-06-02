@@ -127,7 +127,7 @@ function weatherbitToTemperatures(data) {
 	return  data['data'].map(datum => datum["temp"]);
 }
 
-const QUERY_LAUSANNE = 'http://api.weatherbit.io/v2.0/forecast/daily?city=Lausanne&days=7&key=ed330abe3f5a4104afd9a6ef10b707ca';
+const QUERY_LAUSANNE = 'http://api.weatherbit.io/v2.0/forecast/daily?city=Lausanne&days=7&key=8b002e39c212411294be5ccc2f8e1aa8';
 
 class ForecastOnline extends Forecast {
 	reload() {
@@ -179,7 +179,7 @@ class ForecastOnlineCity extends ForecastOnline {
 
 	reload() {
 		const query = (
-			'http://api.weatherbit.io/v2.0/forecast/daily?city='+ this.city + '&days=7&key=ed330abe3f5a4104afd9a6ef10b707ca'
+			'http://api.weatherbit.io/v2.0/forecast/daily?city='+ this.city + '&days=7&key=8b002e39c212411294be5ccc2f8e1aa8'
 
 		);
 		fetch(query)
