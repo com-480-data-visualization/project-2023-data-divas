@@ -23,7 +23,7 @@
 ## Milestone 3 (4th June, 5pm)
 
 **80% of the final grade**
-
+test weather API : [website](https://com-480-data-visualization.github.io/project-2023-data-divas/solution-03/solution/)
 
 ## Late policy
 
