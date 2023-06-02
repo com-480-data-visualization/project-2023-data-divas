@@ -63,7 +63,7 @@
   var xhr = new XMLHttpRequest();
   var lastMonthDate = getLastMonthDate();
   var news_keyword = 'GHG'; // Specify the keyword for news search
-  var api_key = '30a1600f7fd74a879509f2e26afb2b17'; // Replace with your actual News API key
+  var api_key = '63c929ea51894e1fa90c48d799e0e9a3'; // Replace with your actual News API key
   var api_url = 'https://newsapi.org/v2/everything?q=' + news_keyword + '&from=' + lastMonthDate + '&sortBy=popularityAt&apiKey=' + api_key;
   xhr.open('GET', api_url, true);
   xhr.onreadystatechange = function() {
