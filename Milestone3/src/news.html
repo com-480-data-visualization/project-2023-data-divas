@@ -57,24 +57,30 @@
 
 <script>
   var currentNewsIndex = 0;
-  var articles = [];
+  let articles = [];
 
   // Make an AJAX request to fetch the news data from the News API
   var xhr = new XMLHttpRequest();
+
   var lastMonthDate = getLastMonthDate();
-  var news_keyword = 'GHG'; // Specify the keyword for news search
-  var api_key = '63c929ea51894e1fa90c48d799e0e9a3'; // Replace with your actual News API key
-  var api_url = 'https://newsapi.org/v2/everything?q=' + news_keyword + '&from=' + lastMonthDate + '&sortBy=popularityAt&apiKey=' + api_key;
+  var news_keyword = 'GHG emissions'; // Specify the keyword for news search
+  var api_key = 'dlTCGuSrK5vIqYX8jiRK3zwn-UJAmir9N7jLAxn84gg'; // Replace with your actual News API key
+  var api_url = 'https://api.newscatcherapi.com/v2/search?q='+news_keyword+'&lang=en&page_size=10&sort_by=relevancy';
   xhr.open('GET', api_url, true);
+  xhr.setRequestHeader("x-api-key", api_key)
   xhr.onreadystatechange = function() {
     if (xhr.readyState === 4 && xhr.status === 200) {
-      var response = JSON.parse(xhr.responseText);
-      articles = response.articles.slice(0, 10);
+      let response = JSON.parse(xhr.responseText);
+      articles = response.articles
+      //articles = response.articles //.articles.slice(0, 10);
+      console.log(articles)
       displayNews();
       setInterval(displayNews, 5000); // Display next news every 5 seconds
     }
   };
   xhr.send();
+
+
 
   // Render the news items
   function displayNews() {
@@ -88,7 +94,7 @@
     var news = articles[newsIndex];
 
     // Check if the image URL is available
-    if (!news.urlToImage) {
+    if (!news.media) {
       continue; // Skip this article if image URL is not available
     }
 
@@ -103,7 +109,7 @@
 
     var img = document.createElement('img');
     img.className = 'news-image';
-    img.src = news.urlToImage;
+    img.src = news.media;
     img.onerror = function () {
       this.src = 'data/news.jpg'; // Replace with the URL of your default image
     };
@@ -118,15 +124,15 @@
 
     var source = document.createElement('small');
     source.className = 'source-name';
-    source.textContent = news.source.name;
+    source.textContent = news.clean_url;
 
     var author = news.author; // Get the author from the news object
 
     var description = document.createElement('p');
-    description.textContent = news.description;
+    description.textContent = news.excerpt;
 
     var link = document.createElement('a');
-    link.href = news.url;
+    link.href = news.link;
     link.className = 'btn btn-sm btn-primary';
     link.style.float = 'right';
     link.target = '_blank';
