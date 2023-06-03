@@ -24,7 +24,7 @@
 
 **80% of the final grade**
 
-[Here](./Milestone3/MILESTONE3.md) is the Milestone 3 with our final website, the process book and the link towards our video.
+[Here](./Milestone3/MILESTONE3.md) is the Milestone 3 readme with our final website, the process book and the link towards our video.
 
 Contributors:
 - Visualizations: https://d3js.org/
