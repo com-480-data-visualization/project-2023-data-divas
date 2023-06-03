@@ -6,4 +6,4 @@ The website can be found [here](https://com-480-data-visualization.github.io/pro
 
 The process book is available [here](https://com-480-data-visualization.github.io/project-2023-data-divas/Milestone3/Process_Book.pdf).
 
-[Here](...) is our screencast.
+[Here](https://youtu.be/2zJTuB0t4Eg) is our screencast.
