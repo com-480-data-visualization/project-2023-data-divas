@@ -1,10 +1,7 @@
-/**
- * Counts and displays how much ghg have been emitted since the start of the website visit
- */
-
-// TODO: Know how much ghg is emitted / second
-
-function count_ghg_seconds(id, units, describ, color="black", nb_ghg_sec = 1.17) {
+/*
+Counts and displays how much ghg have been emitted since the start of the website visit
+*/
+function count_ghg_seconds(id, units, describ, color = "black", nb_ghg_sec = 1.17) {
 
   // Emitted ghg value starts at zero
   let current_value = 0;
@@ -17,11 +14,11 @@ function count_ghg_seconds(id, units, describ, color="black", nb_ghg_sec = 1.17)
   root.append(`<div class="counter_describ">${describ}</div>`);
 
   setTimeout(() => {
-    setInterval(() => {
-      current_value += nb_ghg_sec;
-      $(id + " .counter_value").html(Math.round(current_value*100)/100);
-      }, 1000); // Increments every 1 second
-    }, 10); // Starts 10ms after website loaded
+     setInterval(() => {
+        current_value += nb_ghg_sec;
+        $(id + " .counter_value").html(Math.round(current_value * 100) / 100);
+     }, 1000); // Increments every 1 second
+  }, 10); // Starts 10ms after website loaded
 }
 
 count_ghg_seconds(
