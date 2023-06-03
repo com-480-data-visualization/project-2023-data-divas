@@ -64,18 +64,17 @@
 
   var lastMonthDate = getLastMonthDate();
   var news_keyword = 'GHG emissions'; // Specify the keyword for news search
-  var api_key = 'dlTCGuSrK5vIqYX8jiRK3zwn-UJAmir9N7jLAxn84gg'; // Replace with your actual News API key
-  var api_url = 'https://api.newscatcherapi.com/v2/search?q='+news_keyword+'&lang=en&page_size=15&sort_by=relevancy&from=4 weeks ago';
+  var api_key = 'kIyQ7qqiMtX_dqzT0QSjEKkpnhQdi_uCjc4F_YMDfsg'; // Replace with your actual News API key
+  var api_url = 'https://api.newscatcherapi.com/v2/search?q='+news_keyword+'&lang=en&page_size=10&sort_by=relevancy&from=4 weeks ago';
   xhr.open('GET', api_url, true);
   xhr.setRequestHeader("x-api-key", api_key)
   xhr.onreadystatechange = function() {
     if (xhr.readyState === 4 && xhr.status === 200) {
       let response = JSON.parse(xhr.responseText);
       articles = response.articles
-      //articles = response.articles //.articles.slice(0, 10);
       console.log(articles)
       displayNews();
-      setInterval(displayNews, 6000); // Display next news every 6 seconds
+      setInterval(displayNews, 6000); // Display next news every 5 seconds
     }
   };
   xhr.send();
@@ -177,22 +176,7 @@
     });
   }, 500);
 }
-/*
-    // Update the current news index
-    currentNewsIndex = (currentNewsIndex + 1) % newsCount;
 
-    // Add active class to the current news item for fading in
-    var currentNews = document.querySelector('.single-news:first-child');
-    currentNews.classList.add('active');
-
-    // Remove the previous news items after the transition is completed
-    setTimeout(function() {
-      var previousNews = document.querySelectorAll('.single-news:not(:first-child)');
-      previousNews.forEach(function(news) {
-        news.remove();
-      });
-    }, 500);
-*/
   function getLastMonthDate() {
     var currentDate = new Date(); // Get the current date
     var previousMonthDate = new Date(

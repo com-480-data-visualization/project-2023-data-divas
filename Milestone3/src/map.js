@@ -54,7 +54,7 @@ function ghg_color(d) {
   
   const thresh = GHG_GRADING.grades;
 
-  return d === -100 ?
+  return d < 0.0 ?
       COLORS_GHG[0] : d > thresh[5] ?
           COLORS_GHG[6] : d > thresh[4] ?
               COLORS_GHG[5] : d > thresh[3] ?
@@ -84,19 +84,21 @@ function country_infos(feature) {
   let property = feature.properties[GHG_GRADING.label];
   let val = property ? property[current_year] : 0;
   if (!isNaN(val)){
-    $("#modal").modal("show");
+    if (val > 0.0){
+      $("#modal").modal("show");
 
-    const { properties } = feature;
+      const { properties } = feature;
 
-    $("#modal-title").html(
-      properties.name + " - " + (1990 + parseInt(current_year))
-    );
-    sectors_barplot(properties.sectors, current_year);
+      $("#modal-title").html(
+        properties.name + " - " + (1990 + parseInt(current_year))
+      );
+      sectors_barplot(properties.sectors, current_year);
 
-    $("#modal2-title").html(
-      properties.name + " - " + (1990 + parseInt(current_year))
-    );
-    gases_barplot(properties.gases, current_year)
+      $("#modal2-title").html(
+        properties.name + " - " + (1990 + parseInt(current_year))
+      );
+      gases_barplot(properties.gases, current_year)
+    }
   }
 
 }
@@ -169,11 +171,14 @@ info.update = function (props) {
       Math.round(props[GHG_GRADING.label][current_year]) : 0;
 
   if (!isNaN(value)) {
-    this._div.innerHTML =
+    if (value >= 0.0){
+      this._div.innerHTML =
         ` ${props ? `<b>${props.name}</b><br/>${value} ${GHG_GRADING.unit}` : "Wander through the map"} `
+    }
+    else this._div.innerHTML = `<b>${props.name}</b>`+"<br>No information available"
   }
   else {
-    this._div.innerHTML = `<b>${props.name}</b>`+"<br>No information available"
+      this._div.innerHTML = `<b>${props.name}</b>`+"<br>No information available"
   }
 };
 
