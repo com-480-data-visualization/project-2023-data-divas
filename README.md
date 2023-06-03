@@ -23,7 +23,16 @@
 ## Milestone 3 (4th June, 5pm)
 
 **80% of the final grade**
-test weather API : [website](https://com-480-data-visualization.github.io/project-2023-data-divas/solution-03/solution/)
+
+[Here](./Milestone3/MILESTONE3.md) is the Milestone 3 with our final website, the process book and the link towards our video.
+
+Contributors:
+- Visualizations: https://d3js.org/
+- Modal dialog popup: https://getbootstrap.com/
+- GeoJSON coordinates: https://gist.github.com/markmarkoh/2969317
+- Map: https://leafletjs.com/
+- World map style: https://github.com/CartoDB/basemap-styles
+- News API: https://newscatcherapi.com/
 
 ## Late policy
 
