@@ -4,6 +4,6 @@
 
 The website can be found [here](https://com-480-data-visualization.github.io/project-2023-data-divas/Milestone3/src/). Hope you appreciate the journey!
 
-The process book is available [here](...).
+The process book is available [here](https://com-480-data-visualization.github.io/project-2023-data-divas/Milestone3/Process_Book.pdf).
 
 [Here](...) is our screencast.

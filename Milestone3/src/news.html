@@ -158,10 +158,16 @@
          }
          
          // Display error message
-function showError(message) {
-  let errorMessage = document.getElementById('error-message');
-  errorMessage.innerHTML = `<span class="error-content"><img src="data/skull.png" alt="Error" class="error-image">${message}</span>`;
-}
+         function showError(message, linkText, linkUrl) {
+           let errorMessage = document.getElementById('error-message');
+           errorMessage.innerHTML = `
+             <span class="error-content">
+               <img src="data/skull.png" alt="Error" class="error-image">${message}
+             </span>
+             <br>
+             <a href="${"https://github.com/com-480-data-visualization/project-2023-data-divas/issues"}">${"Create an issue on Data Divas Github"}</a>
+           `;
+         }
 
          /* This function was previously used to get the date of the previous month
           but it is no longer needed since the News API supports the from parameter
