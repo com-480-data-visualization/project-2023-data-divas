@@ -6,7 +6,7 @@
 | Yifeng Chen | 336230 |
 | Tanguy Desjardin| 311986 |
 
-[Milestone 1](./Milestone1/) • [Milestone 2](./Milestone2/) • [Milestone 3](#milestone-3)
+[Milestone 1](./Milestone1/) • [Milestone 2](./Milestone2/) • [Milestone 3](./Milestone3/)
 
 ## Milestone 1 (23rd April, 5pm)
 
