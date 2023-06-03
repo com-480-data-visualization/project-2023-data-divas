@@ -66,6 +66,7 @@
   var news_keyword = 'GHG emissions'; // Specify the keyword for news search
   var api_key = 'kIyQ7qqiMtX_dqzT0QSjEKkpnhQdi_uCjc4F_YMDfsg'; // Replace with your actual News API key
   var api_url = 'https://api.newscatcherapi.com/v2/search?q='+news_keyword+'&lang=en&page_size=10&sort_by=relevancy&from=4 weeks ago';
+
   xhr.open('GET', api_url, true);
   xhr.setRequestHeader("x-api-key", api_key)
   xhr.onreadystatechange = function() {
